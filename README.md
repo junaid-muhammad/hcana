@@ -6,14 +6,14 @@ SOS spectrometers in
 [Hall C](http://www.jlab.org/Hall-C/) at [JLab](http://www.jlab.org/).
 It is being developed to replace
 the historical Hall C analyzer, ENGINE, which was written in Fortran.
-hcana will be the package used to analyze Hall C date in the 12 GeV era.
+hcana will be the package used to analyze Hall C data in the 12 GeV era.
 hcana is being written in C++, using the CERN ROOT framework.  hcana is
 an extension to the Hall A analyzer, PODD.
 
 NOTE: In the process of retrieving the hcana source code, a copy of
 the Hall A PODD package will be downloaded.  The version of PODD included
 has been slightly modified for use with hcana.  For an official version
-of PODD, see the [ROOT/C++ Analyzer for Hall A](http://hallaweb.jlab.org/podd/) page.
+of PODD, see the [ROOT/C++ Analyzer for Hall A](https://redmine.jlab.org/projects/podd/wiki) page.
 
 Downloading
 -----------
@@ -44,7 +44,7 @@ To compile with debug capabilities, do
 `scons debug=1`
 To compile the standalone codes the are part of podd, do
 `scons standalone=1`
-To run cppcheck (if installed) on the Hall C src diretory, do
+To run cppcheck (if installed) on the Hall C src directory, do
 `scons cppcheck=1`
 
 ### Compiling with CMake (experimental)
