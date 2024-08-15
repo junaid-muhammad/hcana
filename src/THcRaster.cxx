@@ -203,10 +203,10 @@ Int_t THcRaster::ReadDatabase( const TDatime& date )
   };
   fgpbeam = 0.001;
  //
-  //positions of BPMs relative to target (from Fall 2018 survey)
-  fgbpma_zpos = 320.17;
-  fgbpmb_zpos = 224.81 ;// cm
-    fgbpmc_zpos = 129.38 ;// cm
+  //positions of BPMs relative to target (from Fall 2023 survey)
+  fgbpma_zpos = 320.22;
+  fgbpmb_zpos = 224.62 ;// cm
+  fgbpmc_zpos = 124.36 ;// cm
   // Default offsets to zero and slopes to +/- 1
   fgbeam_xoff = -999.;
   fgbeam_xpoff =-999.;
